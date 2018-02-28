@@ -14,7 +14,7 @@ import javax.net.ssl.SSLSession;
 public class SelfSignedHostnameVerifier implements javax.net.ssl.HostnameVerifier {
     @Override
     public boolean verify(String hostname, SSLSession session) {
-        String[] hostNameArray = new String[]{"http://www.12306.cn"};
+        String[] hostNameArray = new String[]{"www.12306.cn"};
         javax.net.ssl.HostnameVerifier hv = HttpsURLConnection.getDefaultHostnameVerifier();
         boolean result = false;
         for (String hostName : hostNameArray) {
