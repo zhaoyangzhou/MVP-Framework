@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="码表"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="名称"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvYesterdayClosing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="昨收"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="1"
+        android:background="@drawable/table_border"
+        android:text="多"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvOpen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="开盘"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvHightest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="最高"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+</LinearLayout>

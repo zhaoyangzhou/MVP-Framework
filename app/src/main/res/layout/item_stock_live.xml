@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:paddingLeft="@dimen/cell_horizontal_padding"
+        android:paddingRight="@dimen/cell_horizontal_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="600097"
+        android:textColor="@android:color/white"
+        android:gravity="right|center_vertical|center_vertical" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:paddingLeft="@dimen/cell_horizontal_padding"
+        android:paddingRight="@dimen/cell_horizontal_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="开创国际"
+        android:textColor="@android:color/white"
+        android:gravity="right|center_vertical" />
+
+    <TextView
+        android:id="@+id/tvYesterdayEnd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:paddingLeft="@dimen/cell_horizontal_padding"
+        android:paddingRight="@dimen/cell_horizontal_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="15.370"
+        android:textColor="@android:color/white"
+        android:gravity="right|center_vertical" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:layout_weight="1"
+        android:background="@drawable/table_border"
+        android:text="绿"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvStart"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:paddingLeft="@dimen/cell_horizontal_padding"
+        android:paddingRight="@dimen/cell_horizontal_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="16.150"
+        android:textColor="@android:color/white"
+        android:gravity="right|center_vertical" />
+
+    <TextView
+        android:id="@+id/tvHightest"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/cell_vertical_padding"
+        android:paddingBottom="@dimen/cell_vertical_padding"
+        android:paddingLeft="@dimen/cell_horizontal_padding"
+        android:paddingRight="@dimen/cell_horizontal_padding"
+        android:layout_weight="2"
+        android:background="@drawable/table_border"
+        android:text="16.280"
+        android:textColor="@android:color/white"
+        android:gravity="right|center_vertical" />
+
+</LinearLayout>

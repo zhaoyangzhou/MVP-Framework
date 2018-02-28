@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:drawableLeft="@android:drawable/ic_search_category_default"
+        android:text="" />
+    <com.panxw.android.imageindicator.NetworkImageIndicatorView
+        android:id="@+id/imageIndicatorView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/autoCompleteTextView"/>
+</RelativeLayout>
