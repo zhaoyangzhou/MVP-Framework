@@ -4,11 +4,11 @@
 ###采用的开源框架有：
 
 ```
-1、RXJava + RxAndroid（响应式编程框架）
+1、RXJava2 + RxAndroid（响应式编程框架）
 
 2、Retrofit2（网络请求和数据解析）
 
-3、DBFlow（数据库）
+3、DBFlow（数据库，支持数据库文件加密）
 
 4、OKHttp
 ```
