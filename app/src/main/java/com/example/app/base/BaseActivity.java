@@ -63,7 +63,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
     @Override
     public void hideProgressDialog() {
         if (mProgressDialog != null) {
-            mProgressDialog.hide();
+            mProgressDialog.dismiss();
         }
     }
     /**
